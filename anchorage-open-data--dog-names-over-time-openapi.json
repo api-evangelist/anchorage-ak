@@ -1,0 +1,60 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - Dog Names over Time",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/da3g-dkms.json": {
+            "get": {
+                "summary": "Get Dog Names Over Time",
+                "description": "",
+                "operationId": "GetDogNamesoverTime",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "description": "Date of Data Set",
+                        "type": "string"
+                    },
+                    "dogname": {
+                        "description": "Dog Name",
+                        "type": "string"
+                    },
+                    "rank": {
+                        "description": "Rank of Name in that data set",
+                        "type": "number"
+                    },
+                    "set": {
+                        "description": "Set of Data Set",
+                        "type": "number"
+                    },
+                    "count": {
+                        "description": "Count",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
