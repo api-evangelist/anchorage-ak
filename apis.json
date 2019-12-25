@@ -6,24 +6,282 @@
         "city government",
         "data provider",
         "have api",
+        "have openapi",
+        "new",
         "profile"
     ],
-    "created": "2019-12-20",
-    "modified": "2019-12-20",
+    "created": "2019-12-25",
+    "modified": "2019-12-25",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
         {
-            "name": "Anchorage, AK",
+            "name": "Anchorage Open Data - Dog Names",
             "description": null,
             "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
-            "humanURL": "http:\/\/us-city.census.okfn.org\/place\/anchorage",
+            "humanURL": "https:\/\/data.muni.org",
             "baseURL": "",
             "tags": [],
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-ak-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--dog-names-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--dog-names-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - CAMA Property Inventory - Residential with Details",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--cama-property-inventory--residential-with-details-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--cama-property-inventory--residential-with-details-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - CAMA Property Inventory - Residential and Commercial Combined",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--cama-property-inventory--residential-and-commercial-combined-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--cama-property-inventory--residential-and-commercial-combined-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - Anchorage Crime Data by Type and Year UCR 1985-2015",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--anchorage-crime-data-by-type-and-year-ucr-19852015-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--anchorage-crime-data-by-type-and-year-ucr-19852015-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - Childcare Inspections",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--childcare-inspections-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--childcare-inspections-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - CAMA Property Inventory - Commercial with Details",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--cama-property-inventory--commercial-with-details-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--cama-property-inventory--commercial-with-details-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - Homelessness Count - USA",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--homelessness-count--usa-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--homelessness-count--usa-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - Sheltered Homeless Adults",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--sheltered-homeless-adults-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--sheltered-homeless-adults-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - Weekly Snow Removal",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--weekly-snow-removal-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--weekly-snow-removal-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - Muni Sidewalks and Trails Snow Plowing",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--muni-sidewalks-and-trails-snow-plowing-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--muni-sidewalks-and-trails-snow-plowing-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - Dog Names over Time",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--dog-names-over-time-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--dog-names-over-time-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - Housing Unit Permits",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--housing-unit-permits-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--housing-unit-permits-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - Housing Permits including Assisted Living Units",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--housing-permits-including-assisted-living-units-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--housing-permits-including-assisted-living-units-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - Alaska WIC APL UPCs",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--alaska-wic-apl-upcs-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--alaska-wic-apl-upcs-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Anchorage Open Data - AK WIC UPC Store URL",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/anchorage-alaska-open-data.png",
+            "humanURL": "https:\/\/data.muni.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--ak-wic-upc-store-url-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/anchorage-ak\/master\/anchorage-open-data--ak-wic-upc-store-url-postman-collection.json"
                 }
             ]
         }
@@ -35,8 +293,12 @@
             "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
         },
         {
+            "type": "Developer",
+            "url": "https:\/\/data.muni.org"
+        },
+        {
             "type": "Website",
-            "url": "http:\/\/us-city.census.okfn.org\/place\/anchorage"
+            "url": "https:\/\/data.muni.org"
         }
     ]
 }
