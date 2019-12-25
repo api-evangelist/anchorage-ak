@@ -1,0 +1,64 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - Homelessness Count - USA",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/vrsm-k79r.json": {
+            "get": {
+                "summary": "Get Homelessness Count - USA",
+                "description": "",
+                "operationId": "GetHomelessnessCountUSA",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "attribute_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "year": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "coc_number": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "year_text": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "coc_name": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
