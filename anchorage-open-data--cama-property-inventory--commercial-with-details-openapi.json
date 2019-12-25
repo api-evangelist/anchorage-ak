@@ -1,0 +1,932 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - CAMA Property Inventory - Commercial with Details",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/ijws-5rpw.json": {
+            "get": {
+                "summary": "Get CAMA Property Inventory - Commercial With Details",
+                "description": "",
+                "operationId": "GetCAMAPropertyInventoryCommercialwithDetails",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "appraisalyear": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "parcelid": {
+                        "description": "Unique identification number assigned to a parcel that is used for record keeping and tax purposes",
+                        "type": "string"
+                    },
+                    "parcelidurl": {
+                        "description": "Link to the Municpality of Anchorage Public Inquiry Parcel Details page",
+                        "type": "string"
+                    },
+                    "lcidesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "classcodedesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "landusecodedesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ownerline1": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ownerline2": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ownerline3": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ownerline4": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "legal1": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "legal2": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "legal3": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "condounitnumber": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "parceladdress": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "landarea": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "zone": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "taxdistrict": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "gridmap": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "hra": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "deedbook": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "deedpage": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "deeddate": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "platnumber": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "currentlandvalue": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "currentbuildingvalue": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "currenttotalvalue": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "exemption1desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption1amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption2desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption2amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption3desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption3amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption4desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption4amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption5desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption5amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption6desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption6amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemptions": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "taxablevalue": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "landvalueprevious": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "buildingvalueprevious": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "totalvalueprevious": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "landvalueprevious2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "buildingvalueprevious2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "totalvalueprevious2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "totallivingunits": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "buildingname": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "buildingstructuretypedesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "totbldgsqft": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "bldggradedesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "buildingyearbuilt": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "effectiveyear": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "buildingunits": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "bldgnumidenticalunits": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "fromfloor1": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "tofloor1": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaforfloor1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "usetypecodeforfloor1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "floorwallheight1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "extwall1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "constructiontype1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "heating1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "aircond1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "physicalcondition1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "functionalutility1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fromfloor2": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "tofloor2": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaforfloor2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "usetypecodeforfloor2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "floorwallheight2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "extwall2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "constructiontype2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "heating2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "aircond2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "physicalcondition2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "functionalutility2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fromfloor3": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "tofloor3": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaforfloor3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "usetypecodeforfloor3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "floorwallheight3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "extwall3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "constructiontype3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "heating3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "aircond3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "physicalcondition3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "functionalutility3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fromfloor4": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "tofloor4": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaforfloor4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "usetypecodeforfloor4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "floorwallheight4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "extwall4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "constructiontype4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "heating4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "aircond4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "physicalcondition4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "functionalutility4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fromfloor5": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "tofloor5": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaforfloor5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "usetypecodeforfloor5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "floorwallheight5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "extwall5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "constructiontype5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "heating5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "aircond5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "physicalcondition5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "functionalutility5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fromfloor6": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "tofloor6": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaforfloor6": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "usetypecodeforfloor6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "floorwallheight6": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "extwall6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "constructiontype6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "heating6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "aircond6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "physicalcondition6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "functionalutility6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fromfloor7": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "tofloor7": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaforfloor7": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "usetypecodeforfloor7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "floorwallheight7": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "extwall7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "constructiontype7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "heating7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "aircond7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "physicalcondition7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "functionalutility7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fromfloor8": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "tofloor8": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaforfloor8": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "usetypecodeforfloor8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "floorwallheight8": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "extwall8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "constructiontype8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "heating8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "aircond8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "physicalcondition8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "functionalutility8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardstructurecode1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardarea1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardnumberidenticalunits1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardyearbuilt1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardphysicalcondition1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardfunctionalutility1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardstructurecode2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardarea2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardnumberidenticalunits2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardyearbuilt2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardphysicalcondition2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardfunctionalutility2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardstructurecode3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardarea3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardnumberidenticalunits3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardyearbuilt3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardphysicalcondition3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardfunctionalutility3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardstructurecode4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardarea4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardnumberidenticalunits4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardyearbuilt4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardphysicalcondition4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardfunctionalutility4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardstructurecode5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardarea5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardnumberidenticalunits5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardyearbuilt5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardphysicalcondition5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardfunctionalutility5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardstructurecode6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardarea6": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardnumberidenticalunits6": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardyearbuilt6": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "yardphysicalcondition6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yardfunctionalutility6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ofidenticalunits1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofstructcode1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ofmeas1_1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofmeas2_1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofidenticalunits2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofstructcode2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ofmeas1_2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofmeas2_2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofidenticalunits3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofstructcode3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ofmeas1_3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofmeas2_3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofidenticalunits4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofstructcode4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ofmeas1_4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofmeas2_4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofidenticalunits5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofstructcode5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ofmeas1_5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofmeas2_5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofidenticalunits6": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofstructcode6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ofmeas1_6": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofmeas2_6": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofidenticalunits7": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofstructcode7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ofmeas1_7": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofmeas2_7": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofidenticalunits8": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofstructcode8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ofmeas1_8": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ofmeas2_8": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "location": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_address": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    ":@computed_region_9hdy_5btr": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_sgnw_9kie": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_64hr_2q6a": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
