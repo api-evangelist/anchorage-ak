@@ -1,0 +1,48 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - Muni Sidewalks and Trails Snow Plowing",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/46i2-88w5.json": {
+            "get": {
+                "summary": "Get Muni Sidewalks And Trails Snow Plowing",
+                "description": "",
+                "operationId": "GetMuniSidewalksandTrailsSnowPlowing",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "miles_of_sidewalk_trail_plowed": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "date_range": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
