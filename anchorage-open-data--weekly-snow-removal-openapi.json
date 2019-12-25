@@ -1,0 +1,68 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - Weekly Snow Removal",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/vrkj-8w4d.json": {
+            "get": {
+                "summary": "Get Weekly Snow Removal",
+                "description": "",
+                "operationId": "GetWeeklySnowRemoval",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "new_snow": {
+                        "description": "Weekly New Snow Fall in inches from NOAA",
+                        "type": "number"
+                    },
+                    "snow_fall": {
+                        "description": "Cumulative Snow Depth in inches for a week from NOAA",
+                        "type": "number"
+                    },
+                    "cubic_yards": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "loads": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "sanding_requests": {
+                        "description": "Weekly Sanding Requests",
+                        "type": "number"
+                    },
+                    "date_text": {
+                        "description": "Date - Text",
+                        "type": "string"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
