@@ -1,0 +1,64 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - Alaska WIC APL UPCs",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/rciz-3j9x.json": {
+            "get": {
+                "summary": "Get Alaska WIC APL UPCs",
+                "description": "",
+                "operationId": "GetAlaskaWICAPLUPCs",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "upc_plu": {
+                        "description": "UPC Code",
+                        "type": "number"
+                    },
+                    "itemdescription": {
+                        "description": "Item Description",
+                        "type": "string"
+                    },
+                    "categorydescription": {
+                        "description": "Category Description",
+                        "type": "string"
+                    },
+                    "subcategorydescription": {
+                        "description": "Subcategory Description",
+                        "type": "string"
+                    },
+                    "benefitquantity": {
+                        "description": "Benefit Quantity",
+                        "type": "number"
+                    },
+                    "benefitunit": {
+                        "description": "Benefit Unit",
+                        "type": "string"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
