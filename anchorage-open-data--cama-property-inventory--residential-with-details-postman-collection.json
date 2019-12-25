@@ -1,0 +1,36 @@
+{
+    "id": "cd4c996907c0ed0f6581c656f9ad14c3",
+    "name": "Anchorage Open Data - CAMA Property Inventory - Residential with Details",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "2f39c26e578f381c108609dd59eda236",
+            "name": "Get CAMA Property Inventory - Residential With Details",
+            "url": "https:\/\/data.muni.org\/resource\/\/r3di-nq2j.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cd4c996907c0ed0f6581c656f9ad14c3",
+            "rawModeData": ""
+        }
+    ]
+}
