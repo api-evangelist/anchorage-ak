@@ -1,0 +1,36 @@
+{
+    "id": "c974e2cc0301913ce084ba2920694959",
+    "name": "Anchorage Open Data - Anchorage Crime Data by Type and Year UCR 1985-2015",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "690952cba05bd41edf3384e41a878a37",
+            "name": "Get Anchorage Crime Data By Type And Year UCR 1985-2015",
+            "url": "https:\/\/data.muni.org\/resource\/\/48we-a359.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c974e2cc0301913ce084ba2920694959",
+            "rawModeData": ""
+        }
+    ]
+}
