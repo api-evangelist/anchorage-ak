@@ -1,0 +1,68 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - AK WIC UPC Store URL",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/bjjj-bcwf.json": {
+            "get": {
+                "summary": "Get AK WIC UPC Store URL",
+                "description": "",
+                "operationId": "GetAKWICUPCStoreURL",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "upc_plu": {
+                        "description": "UPC or PLU Code",
+                        "type": "number"
+                    },
+                    "itemdescription": {
+                        "description": "Item Description",
+                        "type": "string"
+                    },
+                    "categorydescription": {
+                        "description": "Category Description",
+                        "type": "string"
+                    },
+                    "subcategorydescription": {
+                        "description": "Subcategory Description",
+                        "type": "string"
+                    },
+                    "benefitquantity": {
+                        "description": "Benefit Quantity",
+                        "type": "number"
+                    },
+                    "benefitunit": {
+                        "description": "Benefit Unit",
+                        "type": "string"
+                    },
+                    "fredmeyerurl": {
+                        "description": "Store Search URL",
+                        "type": "string"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
