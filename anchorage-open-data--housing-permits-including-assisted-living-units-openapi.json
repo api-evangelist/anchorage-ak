@@ -1,0 +1,60 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - Housing Permits including Assisted Living Units",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/5t3u-serj.json": {
+            "get": {
+                "summary": "Get Housing Permits Including Assisted Living Units",
+                "description": "",
+                "operationId": "GetHousingPermitsincludingAssistedLivingUnits",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "year": {
+                        "description": "Year",
+                        "type": "number"
+                    },
+                    "single_duplex_multi": {
+                        "description": "Single\/Duplex\/Multi housing units",
+                        "type": "number"
+                    },
+                    "adus": {
+                        "description": "ADU Units",
+                        "type": "number"
+                    },
+                    "assisted": {
+                        "description": "Assisted Living Units",
+                        "type": "number"
+                    },
+                    "total": {
+                        "description": "Total Units",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
