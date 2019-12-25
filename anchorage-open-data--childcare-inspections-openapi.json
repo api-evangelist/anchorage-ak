@@ -1,0 +1,128 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - Childcare Inspections",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/abmr-hyh6.json": {
+            "get": {
+                "summary": "Get Childcare Inspections",
+                "description": "",
+                "operationId": "GetChildcareInspections",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "business_id": {
+                        "description": "Facility ID",
+                        "type": "string"
+                    },
+                    "business_name": {
+                        "description": "Facility Name",
+                        "type": "string"
+                    },
+                    "business_address": {
+                        "description": "Facility Address",
+                        "type": "string"
+                    },
+                    "business_city": {
+                        "description": "Facility City",
+                        "type": "string"
+                    },
+                    "business_state": {
+                        "description": "Facility State",
+                        "type": "string"
+                    },
+                    "business_postal_code": {
+                        "description": "Facility Postal Code",
+                        "type": "string"
+                    },
+                    "business_latitude": {
+                        "description": "Facility Latitude",
+                        "type": "number"
+                    },
+                    "business_longitude": {
+                        "description": "Facility Longitude",
+                        "type": "number"
+                    },
+                    "business_location": {
+                        "description": "Facility Location",
+                        "type": "string"
+                    },
+                    "business_location_address": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "business_location_city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "business_location_state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "business_location_zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "business_phone_number": {
+                        "description": "Facility Phone Number",
+                        "type": "string"
+                    },
+                    "inspection_id": {
+                        "description": "Inspection ID",
+                        "type": "string"
+                    },
+                    "inspection_date": {
+                        "description": "Inspection Date",
+                        "type": "string"
+                    },
+                    "inspection_type": {
+                        "description": "Inspection Type",
+                        "type": "string"
+                    },
+                    "violation_id": {
+                        "description": "Violation ID",
+                        "type": "number"
+                    },
+                    "violation_description": {
+                        "description": "Violation Description",
+                        "type": "string"
+                    },
+                    ":@computed_region_9hdy_5btr": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_sgnw_9kie": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_64hr_2q6a": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
