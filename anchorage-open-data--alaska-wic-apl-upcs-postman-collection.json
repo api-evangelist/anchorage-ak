@@ -1,0 +1,36 @@
+{
+    "id": "cc5fea85f18cd2f3bb7338e0944b274c",
+    "name": "Anchorage Open Data - Alaska WIC APL UPCs",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "a8d1547285f734cc7c4b335d0c99fdcb",
+            "name": "Get Alaska WIC APL UPCs",
+            "url": "https:\/\/data.muni.org\/resource\/\/rciz-3j9x.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cc5fea85f18cd2f3bb7338e0944b274c",
+            "rawModeData": ""
+        }
+    ]
+}
