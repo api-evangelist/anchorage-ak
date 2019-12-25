@@ -1,0 +1,36 @@
+{
+    "id": "fd6e3382c5a9c0bc3b82a803970f7e0f",
+    "name": "Anchorage Open Data - Sheltered Homeless Adults",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "b6a231f348bf4b89a6e84e2c6885a207",
+            "name": "Get Sheltered Homeless Adults",
+            "url": "https:\/\/data.muni.org\/resource\/\/t92d-3eu7.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fd6e3382c5a9c0bc3b82a803970f7e0f",
+            "rawModeData": ""
+        }
+    ]
+}
