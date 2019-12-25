@@ -1,0 +1,76 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - Housing Unit Permits",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/wgar-539c.json": {
+            "get": {
+                "summary": "Get Housing Unit Permits",
+                "description": "",
+                "operationId": "GetHousingUnitPermits",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "year": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "month": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "single": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "duplex": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "multi": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "total": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "ytd": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "month_name": {
+                        "description": "Name of Month",
+                        "type": "string"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
