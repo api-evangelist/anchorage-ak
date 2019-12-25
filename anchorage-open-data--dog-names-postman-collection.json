@@ -1,0 +1,36 @@
+{
+    "id": "7db07c65e9be353561232955996461ac",
+    "name": "Anchorage Open Data - Dog Names",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "6cd9832f5fb87cb888543cbc3c8993a0",
+            "name": "Get Dog Names",
+            "url": "https:\/\/data.muni.org\/resource\/\/a9a7-y93v.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "7db07c65e9be353561232955996461ac",
+            "rawModeData": ""
+        }
+    ]
+}
