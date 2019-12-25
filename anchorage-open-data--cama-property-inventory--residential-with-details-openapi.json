@@ -1,0 +1,704 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - CAMA Property Inventory - Residential with Details",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/r3di-nq2j.json": {
+            "get": {
+                "summary": "Get CAMA Property Inventory - Residential With Details",
+                "description": "",
+                "operationId": "GetCAMAPropertyInventoryResidentialwithDetails",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "appraisalyear": {
+                        "description": "Calendar year of property appraisal",
+                        "type": "string"
+                    },
+                    "parcelid": {
+                        "description": "Unique identification number assigned to a parcel that is used for record keeping and tax purposes",
+                        "type": "string"
+                    },
+                    "parcelidurl": {
+                        "description": "Link to the Municpality of Anchorage Public Inquiry Parcel Details page",
+                        "type": "string"
+                    },
+                    "lcidesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "classcodedesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "landusecodedesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ownerline1": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ownerline2": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ownerline3": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ownerline4": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "legal1": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "legal2": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "legal3": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "condounitnumber": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "parceladdress": {
+                        "description": "The address of the parcel",
+                        "type": "string"
+                    },
+                    "landarea": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "zone": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "taxdistrict": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "gridmap": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "hra": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "deedbook": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "deedpage": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "deeddate": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "platnumber": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "currentlandvalue": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "currentbuildingvalue": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "currenttotalvalue": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "exemption1desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption1amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption2desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption2amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption3desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption3amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption4desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption4amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption5desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption5amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption6desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption6amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemptions": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "taxablevalue": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "landvalueprevious": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "buildingvalueprevious": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "totalvalueprevious": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "landvalueprevious2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "buildingvalueprevious2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "totalvalueprevious2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "totallivingunits": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "styledesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "storyhgt": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "externalwalldesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "yearbuilt": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "effectiveyear": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "totalallrooms": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "bedrooms": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "recrooms": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "numfullbaths": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "numhalfbaths": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "additionalfixtures": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "heattypedesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "heatfueldesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "heatsystemdesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "woodstacks": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "woodopenings": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "freestdgfireplacestacks": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "specialitems1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "numspecialitems1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "specialitems2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "numspecialitems2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "eazysetfireplacestacks": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "condostyledesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "condofloor": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "gradefactordesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "costdesign": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "physicalconditiondesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "basementarea2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "basementarea": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "numbasementgarages": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "firstfloorarea": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "secondfloorarea": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "thirdfloorarea": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "halffloorarea": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "finishedatticarea": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "recroomarea": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "totallivingarea": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "additionslowerlevel1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "firstflooradditions1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "secondflooradditions1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "thirdflooradditions1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaofaddition1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "additionslowerlevel2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "firstflooradditions2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "secondflooradditions2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "thirdflooradditions2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaofaddition2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "additionslowerlevel3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "firstflooradditions3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "secondflooradditions3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "thirdflooradditions3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaofaddition3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "additionslowerlevel4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "firstflooradditions4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "secondflooradditions4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "thirdflooradditions4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaofaddition4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "additionslowerlevel5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "firstflooradditions5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "secondflooradditions5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "thirdflooradditions5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaofaddition5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "additionslowerlevel6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "firstflooradditions6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "secondflooradditions6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "thirdflooradditions6desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaofaddition6": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "additionslowerlevel7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "firstflooradditions7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "secondflooradditions7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "thirdflooradditions7desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaofaddition7": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "additionslowerlevel8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "firstflooradditions8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "secondflooradditions8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "thirdflooradditions8desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "areaofaddition8": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessorytype1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessoryquantity1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessoryyearbuilt1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessoryarea1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessorygrade1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessorycondition1desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessorytype2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessoryquantity2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessoryyearbuilt2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessoryarea2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessorygrade2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessorycondition2desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessorytype3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessoryquantity3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessoryyearbuilt3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessoryarea3": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessorygrade3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessorycondition3desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessorytype4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessoryquantity4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessoryyearbuilt4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessoryarea4": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessorygrade4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessorycondition4desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessorytype5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessoryquantity5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessoryyearbuilt5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessoryarea5": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "accessorygrade5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accessorycondition5desc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_address": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    ":@computed_region_9hdy_5btr": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_sgnw_9kie": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_64hr_2q6a": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
