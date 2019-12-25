@@ -1,0 +1,136 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - Anchorage Crime Data by Type and Year UCR 1985-2015",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/48we-a359.json": {
+            "get": {
+                "summary": "Get Anchorage Crime Data By Type And Year UCR 1985-2015",
+                "description": "",
+                "operationId": "GetAnchorageCrimeDatabyTypeandYearUCR19852015",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "motor_vehicle_theft_rate": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "larceny_theft_rate": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "burglary_rate": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "property_crime_rate": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "aggravated_assault_rate": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "robbery_rate": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "legacy_rape_rate_1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "murder_and_nonnegligent_manslaughter_rate": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "violent_crime_rate": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "motor_vehicle_theft": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "larceny_theft": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "burglary": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "property_crime_total": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "aggravated_assault": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "robbery": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "murder_and_nonnegligent_manslaughter": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "violent_crime_total": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "population": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "year_text": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "year": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "legacy_rape_1": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "months": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "revised_rape_rate_2": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "revised_rape_2": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
