@@ -1,0 +1,36 @@
+{
+    "id": "f0ef1fa47630cf3ee36880fac65add3a",
+    "name": "Anchorage Open Data - CAMA Property Inventory - Residential and Commercial Combined",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "43d20861c944eef155ce4fb8141445f5",
+            "name": "Get CAMA Property Inventory - Residential And Commercial Combined",
+            "url": "https:\/\/data.muni.org\/resource\/\/yfin-h3vh.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "f0ef1fa47630cf3ee36880fac65add3a",
+            "rawModeData": ""
+        }
+    ]
+}
