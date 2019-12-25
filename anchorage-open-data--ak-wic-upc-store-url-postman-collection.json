@@ -1,0 +1,36 @@
+{
+    "id": "8bc49ccaaba4b9bb5fa418cdb724348c",
+    "name": "Anchorage Open Data - AK WIC UPC Store URL",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "4a758e8779a05d6e6bd528b94fb12e1d",
+            "name": "Get AK WIC UPC Store URL",
+            "url": "https:\/\/data.muni.org\/resource\/\/bjjj-bcwf.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8bc49ccaaba4b9bb5fa418cdb724348c",
+            "rawModeData": ""
+        }
+    ]
+}
