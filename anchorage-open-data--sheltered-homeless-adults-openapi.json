@@ -1,0 +1,64 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - Sheltered Homeless Adults",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/t92d-3eu7.json": {
+            "get": {
+                "summary": "Get Sheltered Homeless Adults",
+                "description": "",
+                "operationId": "GetShelteredHomelessAdults",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "adults_18_24": {
+                        "description": "Adults 18-24",
+                        "type": "number"
+                    },
+                    "other": {
+                        "description": "Non Sheltered Adults",
+                        "type": "number"
+                    },
+                    "year_text": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "total_adults": {
+                        "description": "Total Homeless Adults\n",
+                        "type": "number"
+                    },
+                    "year": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "adults": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
