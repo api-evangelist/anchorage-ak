@@ -1,0 +1,36 @@
+{
+    "id": "aaf35882386911721aac52901b537940",
+    "name": "Anchorage Open Data - Weekly Snow Removal",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "eafc032b4c48067c7b1fbc98f6e93792",
+            "name": "Get Weekly Snow Removal",
+            "url": "https:\/\/data.muni.org\/resource\/\/vrkj-8w4d.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "aaf35882386911721aac52901b537940",
+            "rawModeData": ""
+        }
+    ]
+}
