@@ -1,0 +1,36 @@
+{
+    "id": "47bdb2d6f3888f1b94df68bbba64dccf",
+    "name": "Anchorage Open Data - Dog Names over Time",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "96fcd600849fac555dcf1556ccc88e59",
+            "name": "Get Dog Names Over Time",
+            "url": "https:\/\/data.muni.org\/resource\/\/da3g-dkms.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "47bdb2d6f3888f1b94df68bbba64dccf",
+            "rawModeData": ""
+        }
+    ]
+}
