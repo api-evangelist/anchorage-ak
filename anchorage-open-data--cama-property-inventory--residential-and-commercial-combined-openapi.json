@@ -1,0 +1,284 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Anchorage Open Data - CAMA Property Inventory - Residential and Commercial Combined",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/data.muni.org\/resource\/"
+    ],
+    "paths": {
+        "\/yfin-h3vh.json": {
+            "get": {
+                "summary": "Get CAMA Property Inventory - Residential And Commercial Combined",
+                "description": "",
+                "operationId": "GetCAMAPropertyInventoryResidentialandCommercialCombined",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "appraisalyear": {
+                        "description": "Calendar year of property appraisal",
+                        "type": "string"
+                    },
+                    "parcelid": {
+                        "description": "Unique identification number assigned to a parcel that is used for record keeping and tax purposes",
+                        "type": "string"
+                    },
+                    "parcelidurl": {
+                        "description": "Link to the Municpality of Anchorage Public Inquiry Parcel Details page",
+                        "type": "string"
+                    },
+                    "lcidesc": {
+                        "description": "Indicates whether the property is commercial or residential",
+                        "type": "string"
+                    },
+                    "classcodedesc": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "landusecodedesc": {
+                        "description": "Describes the current property land use",
+                        "type": "string"
+                    },
+                    "ownerline1": {
+                        "description": "First line of the property owner name and address",
+                        "type": "string"
+                    },
+                    "ownerline2": {
+                        "description": "Second line of the property owner name and address",
+                        "type": "string"
+                    },
+                    "ownerline3": {
+                        "description": "Third line of the property owner name and address",
+                        "type": "string"
+                    },
+                    "ownerline4": {
+                        "description": "Fourth line of the property owner name and address",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "Owner city",
+                        "type": "string"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "zip": {
+                        "description": "Owner ZIP code",
+                        "type": "string"
+                    },
+                    "legal1": {
+                        "description": "Line one of the property legal description",
+                        "type": "string"
+                    },
+                    "legal2": {
+                        "description": "Line two of the property legal description",
+                        "type": "string"
+                    },
+                    "legal3": {
+                        "description": "Line three of the property legal description",
+                        "type": "string"
+                    },
+                    "parceladdress": {
+                        "description": "The address of the parcel",
+                        "type": "string"
+                    },
+                    "condounitnumber": {
+                        "description": "Condominium unit number",
+                        "type": "string"
+                    },
+                    "totallivingunits": {
+                        "description": "The number of living units for residential property",
+                        "type": "number"
+                    },
+                    "landarea": {
+                        "description": "Size of property in square feet",
+                        "type": "number"
+                    },
+                    "zone": {
+                        "description": "The zoning district governs what land uses are permitted for the property - more info available at https:\/\/www.muni.org\/Departments\/OCPD\/Planning\/zoning\/Pages\/ZoningDistricts.aspx",
+                        "type": "string"
+                    },
+                    "gridmap": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "hra": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "taxdistrict": {
+                        "description": "Geographic area for tax purposes",
+                        "type": "string"
+                    },
+                    "deedbook": {
+                        "description": "State of Alaska deed book number - records can be searched and retrieved at http:\/\/dnr.alaska.gov\/ssd\/recoff\/sag\/BookandPageSearchMenu.cfm",
+                        "type": "number"
+                    },
+                    "deedpage": {
+                        "description": "State of Alaska deed book page number - records can be searched and retrieved at http:\/\/dnr.alaska.gov\/ssd\/recoff\/sag\/BookandPageSearchMenu.cfm",
+                        "type": "number"
+                    },
+                    "deeddate": {
+                        "description": "Date deed was recorded",
+                        "type": "string"
+                    },
+                    "platnumber": {
+                        "description": "Number identifying the plat map",
+                        "type": "string"
+                    },
+                    "currentlandvalue": {
+                        "description": " ",
+                        "type": "number"
+                    },
+                    "currentbuildingvalue": {
+                        "description": " ",
+                        "type": "number"
+                    },
+                    "currenttotalvalue": {
+                        "description": " ",
+                        "type": "number"
+                    },
+                    "exemption1desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption1amount": {
+                        "description": "Dollar amount of this exemption",
+                        "type": "number"
+                    },
+                    "exemption2desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption2amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption3desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption3amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption4desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption4amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption5desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption5amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemption6desc": {
+                        "description": "Describes the type of this tax exemption",
+                        "type": "string"
+                    },
+                    "exemption6amount": {
+                        "description": "Dollar amount of this tax exemption",
+                        "type": "number"
+                    },
+                    "exemptions": {
+                        "description": "The total amount of all tax exemptions",
+                        "type": "number"
+                    },
+                    "taxablevalue": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "landvalueprevious": {
+                        "description": "Assessed land value from one year prior to the current appraisal year",
+                        "type": "number"
+                    },
+                    "buildingvalueprevious": {
+                        "description": "Assessed building value from one year prior to the current appraisal year",
+                        "type": "number"
+                    },
+                    "totalvalueprevious": {
+                        "description": "Assessed total value from one year prior to the current appraisal year",
+                        "type": "number"
+                    },
+                    "landvalueprevious2": {
+                        "description": "Assessed land value from two years prior to the current appraisal year",
+                        "type": "number"
+                    },
+                    "buildingvalueprevious2": {
+                        "description": "Assessed building value from two years prior to the current appraisal year",
+                        "type": "number"
+                    },
+                    "totalvalueprevious2": {
+                        "description": "Assessed total value from two years prior to the current appraisal year",
+                        "type": "number"
+                    },
+                    "yearbuilt": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "effectiveyear": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_address": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "location_zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    ":@computed_region_9hdy_5btr": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_sgnw_9kie": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_64hr_2q6a": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
